@@ -20,21 +20,22 @@ const Education = () => {
             <p>
               HarvardX (Harvard University online platform)
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
           <VerticalTimelineElement
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
             className="vertical-timeline-element--work"
-            date="June 22 - 2024"
+            date="June - August - 2024"
             iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             // icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">CS50's Introduction to Programming with Python</h3>
             <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              HarvardX (Harvard University online platform)
+            Awarded from Cambridge, Massachusetts
+             and certified by Harvard University
             </p>
-          </VerticalTimelineElement> */}
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
