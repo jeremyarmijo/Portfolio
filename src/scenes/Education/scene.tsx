@@ -1,6 +1,8 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import Social_media from '../../Components/social_media';
+import PDFViewer from "../Education/view_pdf"
+
 
 const Education = () => {
   return (
@@ -34,6 +36,7 @@ const Education = () => {
             <p>
             Awarded from Cambridge, Massachusetts
              and certified by Harvard University
+             <PDFViewer path="/CS50P.pdf"/>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
