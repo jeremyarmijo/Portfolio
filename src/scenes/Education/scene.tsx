@@ -25,7 +25,7 @@ const Education = () => {
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
             className="vertical-timeline-element--work"
-            date="June - August - 2024"
+            date="June 1 - July 23 - 2024"
             iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             // icon={<WorkIcon />}
           >

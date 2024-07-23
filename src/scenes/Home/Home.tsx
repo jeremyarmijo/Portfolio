@@ -22,7 +22,7 @@ const Home = () => {
             </div>
         </div>
         <Social_media/>
-        <div className='edition'><br/>© 2024 | Jérémy Armijo<br/>Email: jeremy.armijo@epitech.eu</div>
+        <div className='edition'>Email: jeremy.armijo@epitech.eu<br/>© 2024 | Jérémy Armijo</div>
     </div>
     )
 }
