@@ -145,7 +145,7 @@ h1 {
 .button {
   justify-content: space-between;
   border-radius: 30px;
-  border: 5px solid transparent;
+  border: 2px solid transparent;
   padding: 3em 3em;
   font-size: 1.1em;
   font-weight: 500;
@@ -157,5 +157,5 @@ h1 {
 }
 
 .button:hover {
-  border-color: grey;
+  border-color: rgb(50, 180, 21);
 }
