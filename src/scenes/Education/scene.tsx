@@ -9,20 +9,26 @@ const Education = () => {
       <div>
         <h1 className="title">Education</h1>
         <VerticalTimeline>
-          {/* <VerticalTimelineElement
+          <VerticalTimelineElement
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
             className="vertical-timeline-element--work"
-            date="June 22 - 2024"
+            date="July 24 - September 27 - 2024"
             iconStyle={{ background: 'rgb(0, 0, 0)', color: '#ffffff'}}
             // icon={"/personal_test2.png"}
           >
             <h3 className="vertical-timeline-element-title">CS50's Introduction to Computer Science</h3>
             <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-              HarvardX (Harvard University online platform)
+            This is CS50x, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience.
+              <br/>
+              This course it focuse on computer science more generally as well as programming with C, Python, SQL, and JavaScript.
+              <br/>
+              Awarded from Cambridge, Massachusetts
+              and certified by HarvardX (Harvard University online platform)
+              <PDFViewer path="/CS50x.pdf"/>
             </p>
-          </VerticalTimelineElement> */}
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
@@ -34,8 +40,11 @@ const Education = () => {
             <h3 className="vertical-timeline-element-title">CS50's Introduction to Programming with Python</h3>
             <h4 className="vertical-timeline-element-subtitle"></h4>
             <p>
-            Awarded from Cambridge, Massachusetts
-             and certified by Harvard University
+              An introduction to programming using a language called Python. Learn how to read and write code as well as how to test and "debug" it. Designed for students with or without prior programming experience who'd like to learn Python specifically.
+              CS50P, is entirely focused on programming with Python.
+              <br/>
+              Awarded from Cambridge, Massachusetts
+             and certified by HarvardX (Harvard University online platform)
              <PDFViewer path="/CS50P.pdf"/>
             </p>
           </VerticalTimelineElement>

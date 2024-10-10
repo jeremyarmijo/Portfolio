@@ -16,6 +16,7 @@ const Personal_project = () => {
                 duration_project="1 Week"
                 begin_date="3 June"
             /> <br/> <br/> */}
+            <div id="Functional tester"></div>
             <Card
                 title="Fonctional tester"
                 description="The 'Functional Tester' personal project involves creating a shell script to test the functionality of other programs. This script assesses programs by detecting return values, verifying output accuracy, and identifying potential crashes. The project enhances skills in shell scripting, automated testing, and error detection, providing practical experience in ensuring software reliability and robustness."

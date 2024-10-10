@@ -17,7 +17,8 @@
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "tsc": "^2.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
