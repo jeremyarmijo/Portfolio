@@ -96,7 +96,6 @@
 
 .center {
   border: 3px solid white;
-  display: grid;
   padding: 15px;
   font-size: 22px;
   font-family: Helvetica;
@@ -113,16 +112,11 @@
 }
 
 .button-container {
-  display: block;
-  justify-content: space-between;
   position: center;
 }
 
 .button {
   margin: 50px;
-  /* margin-right: 50px;
-  margin-left: 50px; */
-  justify-content: space-between;
   border-radius: 30px;
   border: 2px solid transparent;
   padding: 3em 3em;
@@ -134,7 +128,6 @@
   position: static;
   font-weight: bolder;
   transition: all 0.3s ease-in-out;
-
 }
 
 .button:hover {
