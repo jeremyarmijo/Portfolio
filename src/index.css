@@ -97,7 +97,7 @@
 .center {
   border: 3px solid white;
   display: grid;
-  padding: 40px;
+  padding: 15px;
   font-size: 22px;
   font-family: Helvetica;
 }

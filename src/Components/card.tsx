@@ -16,7 +16,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, description, imageUrl1, imageUrl2, imageUrl3, linkUrl,
                                     language, type, group_size, begin_date, duration_project }) => {
-  const size_pic="400px"
+  const size_pic="300px"
 
   return (
     <div>
