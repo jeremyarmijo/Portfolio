@@ -16,7 +16,7 @@ const Home = () => {
             <br/>
             <div className="button-container">
                 {/* <Link to="/about"><Button color_label="white" label="About" backgroundImage="about.jp" onClick={About}/></Link> */}
-                <Link to="/project"><Button color_label="white" label="Projects" backgroundImage="project.png" onClick={Project}/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</Link>
+                <Link to="/project"><Button color_label="white" label="Projects" backgroundImage="project.png" onClick={Project}/></Link>
                 <Link to="/education"><Button color_label="black" label="Education" backgroundImage="education.jpg" onClick={Education}/></Link>
                 {/* <Link to="/contact"><Button color_label="white" label="Contact" backgroundImage="contact.pn" onClick={Contact}/></Link> */}
             </div>

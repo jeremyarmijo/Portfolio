@@ -14,23 +14,17 @@
   color:white;
 } 
 
-.card {
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
 .card button {
   border: none;
   outline: 0;
   padding: 12px;
-  color: white;
-  background-color: rgb(0, 142, 42);
+  color: black;
+  background-color: rgb(255, 255, 255);
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  border-radius: 0px 0px 30px 30px;
 }
 
 .card button:hover {
@@ -38,15 +32,19 @@
 }
 
 .card {
+  margin: auto;
+  text-align: center;
+  font-family: arial;
   background-color: rgb(10, 10, 10);
-  border-radius: 5px 5px 0 0;
-  box-shadow: 0 1px 20px 0 rgb(255, 255, 255);
+  box-shadow: 0 1px 20px 0 rgb(145, 143, 143);
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 .card:hover {
-  box-shadow: 0 10px 35px 0 rgb(42, 180, 65);
+  box-shadow: 0 10px 35px 0 rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.02);
 }
 
 .logos {
@@ -98,6 +96,7 @@
 
 .center {
   border: 3px solid white;
+  display: grid;
   padding: 40px;
   font-size: 22px;
   font-family: Helvetica;
@@ -107,10 +106,44 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  
   color-scheme: light dark;
   color: #ffffffff;
   background: black;
+}
+
+.button-container {
+  display: block;
+  justify-content: space-between;
+  position: center;
+}
+
+.button {
+  margin: 50px;
+  /* margin-right: 50px;
+  margin-left: 50px; */
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  padding: 3em 3em;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  position: static;
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.button:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.display_adaptative {
+  display: grid;
 }
 
 a {
@@ -135,27 +168,6 @@ h1 {
   line-height: 1.1;
 }
 
-.button-container {
-  /* display: flex;
-  justify-content: space-between;
-  position: center; */
-  position: center;
-}
-
-.button {
-  justify-content: space-between;
-  border-radius: 30px;
-  border: 2px solid transparent;
-  padding: 3em 3em;
-  font-size: 1.1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  font-weight: bolder;
-  transition: border-color 0.25s;
-}
-
-.button:hover {
-  border-color: rgb(50, 180, 21);
+img {
+  padding: 5px;
 }

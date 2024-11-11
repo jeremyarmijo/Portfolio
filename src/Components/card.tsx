@@ -17,13 +17,10 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ title, description, imageUrl1, imageUrl2, imageUrl3, linkUrl,
                                     language, type, group_size, begin_date, duration_project }) => {
   const size_pic="400px"
-  const width_max="1300px"
-  const border_card = {
-    width: `${width_max}`,
-  };
+
   return (
     <div>
-      <div style={border_card} className="card">
+      <div className="card">
         <h1 className='title_card'><br/>{title}<br/></h1>
         <img width={size_pic} height={size_pic} src={imageUrl1} alt={imageUrl1}/>
         &nbsp;&nbsp;

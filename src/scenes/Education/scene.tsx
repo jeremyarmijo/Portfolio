@@ -44,8 +44,8 @@ const Education = () => {
               CS50P, is entirely focused on programming with Python.
               <br/>
               Awarded from Cambridge, Massachusetts
-             and certified by HarvardX (Harvard University online platform)
-             <PDFViewer path="/CS50P.pdf"/>
+              and certified by HarvardX (Harvard University online platform)
+              <PDFViewer path="/CS50P.pdf"/>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

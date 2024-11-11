@@ -5,9 +5,9 @@ import Table_of_content from "../../Components/table_of_content";
 
 const Project_scene = () => {
     return (
-    <div>
+      <div className="display_adaptative">
         <h1 className="title">Project</h1>
-        <Table_of_content/>
+        {/* <Table_of_content/> */}
         <h1>Personal project</h1>
         <Personal_project/>
         <h1>Epitech projects</h1>
