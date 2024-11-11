@@ -1,7 +1,7 @@
 import First_year_projects from "../../Components/first_year";
 import Personal_project from "../../Components/personal_project";
 import Social_media from "../../Components/social_media";
-import Table_of_content from "../../Components/table_of_content";
+// import Table_of_content from "../../Components/table_of_content";
 
 const Project_scene = () => {
     return (
