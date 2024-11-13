@@ -90,7 +90,6 @@
 .center {
   border: 3px solid white;
   padding: 45px;
-  /* font-size: 22px; */
   font-family: Helvetica;
 }
 
@@ -109,10 +108,10 @@
 }
 
 .button {
-  margin: 0px 70px 25px 70px;
+  margin: 0px 50px 0px 50px;
   border-radius: 30px;
   border: 2px solid transparent;
-  padding: 2.5em 2.5em;
+  padding: 2.1em 2.1em;
   font-size: 1.3em;
   font-weight: 500;
   font-family: inherit;
