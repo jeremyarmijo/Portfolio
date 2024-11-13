@@ -1,5 +1,5 @@
 const Social_media = () => {
-    const size_logo = "40";
+    const size_logo = "35";
 
     const description1 = "GitHub Logo";
     const description2 = "Linkedin Logo";
@@ -24,6 +24,7 @@ const Social_media = () => {
             &nbsp;&nbsp;
                 <img src={imageUrl3} alt={description3} width={size_logo} height={size_logo} />
             </a>
+            <div className='edition'>Email: jeremy.armijo@epitech.eu<br/>© 2024 | Jérémy Armijo</div>
         </div>
     )
 };

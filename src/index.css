@@ -15,15 +15,14 @@
 } 
 
 .card button {
-  border: none;
-  outline: 0;
   padding: 12px;
   color: black;
   background-color: rgb(255, 255, 255);
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-weight: bolder;
+  font-size: 13px;
   border-radius: 0px 0px 30px 30px;
 }
 
@@ -32,6 +31,8 @@
 }
 
 .card {
+  width: auto;
+  max-width: 1100px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -49,7 +50,7 @@
 
 .logos {
   margin-top: 5%;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: center;
 }
 
@@ -64,14 +65,6 @@
   color: #ffffffff;
   font-family: Helvetica;
   font-weight: bolder;
-}
-
-.title {
-  text-align: center;
-  font-size: 90px;
-  font-weight: bolder;
-  color: #ffffffff;
-  font-family: Helvetica;
 }
 
 .description {
@@ -96,8 +89,8 @@
 
 .center {
   border: 3px solid white;
-  padding: 15px;
-  font-size: 22px;
+  padding: 45px;
+  /* font-size: 22px; */
   font-family: Helvetica;
 }
 
@@ -120,7 +113,7 @@
   border-radius: 30px;
   border: 2px solid transparent;
   padding: 2.5em 2.5em;
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
@@ -133,10 +126,6 @@
 .button:hover {
   transition: all 0.3s ease-in-out;
   transform: scale(1.1);
-}
-
-.display_adaptative {
-  display: grid;
 }
 
 a {

@@ -7,7 +7,7 @@ import PDFViewer from "../Education/view_pdf"
 const Education = () => {
   return (
       <div>
-        <h1 className="title">Education</h1>
+        <h1>Education</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
@@ -80,7 +80,6 @@ const Education = () => {
           </VerticalTimelineElement>
         </VerticalTimeline>
         <Social_media/>
-        <div className='edition'><br/>©&nbsp;2024&nbsp;|&nbsp;Jérémy Armijo</div>
     </div>
     )    
   };

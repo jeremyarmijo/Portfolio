@@ -17,7 +17,6 @@ const Contact = () => {
                     <img src="/discord.png" alt="Discord Logo" width={size_logo} height={size_logo} />
                 </a>
             </div>
-            <div className='edition'><br />©&nbsp;2024&nbsp;|&nbsp;Jérémy Armijo</div>
         </div>
     )
 };

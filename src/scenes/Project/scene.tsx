@@ -5,8 +5,8 @@ import Social_media from "../../Components/social_media";
 
 const Project_scene = () => {
     return (
-      <div className="display_adaptative">
-        <h1 className="title">Project</h1>
+      <div>
+        <h1>Projects</h1>
         {/* <Table_of_content/> */}
         <h1>Personal project</h1>
         <Personal_project/>
@@ -14,7 +14,6 @@ const Project_scene = () => {
         <h1>First year</h1>
         <First_year_projects/>
         <Social_media/>
-        <div className='edition'><br/>© 2024 | Jérémy Armijo</div>
     </div>
     )
   };
