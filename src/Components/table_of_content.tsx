@@ -1,20 +1,35 @@
 const Table_of_content = () => {
     return (
         <div>
-            <table>
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                </tr>
-                <tr>
-                    <td>Peter</td>
-                    <td>Griffin</td>
-                </tr>
-                <tr>
-                    <td>Lois</td>
-                    <td>Griffin</td>
-                </tr>
-            </table>
+            <center>
+                <table className="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Date</th>
+                            <th>Team</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dom</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                            <td>6000</td>
+                        </tr>
+                        <tr>
+                            <td>Melissa</td>
+                            <td>5150</td>
+                            <td>5150</td>
+                            <td>5150</td>
+                            <td>5150</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
 
             <form method="get" action="">
                 <select>

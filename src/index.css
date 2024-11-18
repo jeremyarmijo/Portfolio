@@ -1,3 +1,45 @@
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+table {
+  transition: 0.3s;
+}
+
+table:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+  /* border-radius: 0px 90px 90px 90px; */
+}
+
+tr:hover {
+  color: #1033a4;
+}
+
+tbody {
+  color: black;
+  background-color: white;
+}
+
+.styled-table thead tr {
+  background-color: #1033a4;
+  color: #ffffff;
+  text-align: left;
+}
+
 .text_color {
   color: white;
 }
